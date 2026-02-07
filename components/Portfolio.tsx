@@ -28,8 +28,8 @@ const Portfolio: React.FC = () => {
     { id: 2, name: 'Masterplan RSU Efarina Etaham Karawang', owner: 'PT. Efarina Etaham', year: '2024', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 3, name: 'Manajemen Konstruksi Pembangunan Klinik Utama', owner: 'Yayasan Bakti Kesehatan', year: '2022', progress: '90% (Tahap Finishing)', category: 'Swasta' },
     { id: 4, name: 'Feasibility Study Analisis Bisnis Pelayanan Radioterapi RSBP Kota Batam', owner: 'RSBP Batam', year: '2025', progress: '100% (Selesai)', category: 'Pemerintah' },
-    { id: 5, name: 'DED Kantor Perbankan Wilayah', owner: 'PT. Bank Central Utama', year: '2022', progress: '100% (Selesai)', category: 'Swasta' },
-    { id: 6, name: 'Masterplan Penataan Kawasan Wisata', owner: 'Pemerintah Kabupaten Bandung Barat', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
+    { id: 5, name: 'DED Gedung Parkir RSU Asri Purwakarta', owner: 'PT. Asri Medcal Center', year: '2025', progress: '100% (Selesai)', category: 'Swasta' },
+    { id: 6, name: 'DED Gedung 4 Lantai RSU ASRI', owner: 'Pemerintah Kabupaten Bandung Barat', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
     { id: 7, name: 'Perencanaan Gedung Rawat Inap 5 Lantai', owner: 'RS Swasta Medika', year: '2024', progress: '40% (Tahap DED)', category: 'Swasta' },
     { id: 8, name: 'Review Masterplan RS Jantung Nasional', owner: 'Kementerian Kesehatan RI', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
   ];
