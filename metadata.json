@@ -1,0 +1,8 @@
+{
+  "name": "PT Manguntama Reka Persada - Architectural Consultancy",
+  "description": "Website resmi PT Manguntama Reka Persada, konsultan arsitektur spesialis Masterplan Rumah Sakit, DED, dan Manajemen Konstruksi.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
