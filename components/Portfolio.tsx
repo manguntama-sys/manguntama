@@ -24,7 +24,7 @@ const Portfolio: React.FC = () => {
 
   // Detailed experience list
   const experienceList: DetailedProject[] = [
-    { id: 1, name: 'DED Pengembangan RSUD Tipe B', owner: 'Dinas Kesehatan Prov. Jawa Barat', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
+    { id: 1, name: 'DED Pembangunan RSU Efarina Etaham Karawang', owner: 'PT Efarina Etaham', year: '2023', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 2, name: 'Masterplan RS Swasta Internasional', owner: 'PT. Medika Sejahtera', year: '2023', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 3, name: 'Manajemen Konstruksi Pembangunan Klinik Utama', owner: 'Yayasan Bakti Kesehatan', year: '2022', progress: '90% (Tahap Finishing)', category: 'Swasta' },
     { id: 4, name: 'Feasibility Study Pembangunan RSIA Kota', owner: 'Dinas Kesehatan Kota Bandung', year: '2024', progress: '60% (Tahap Analisis)', category: 'Pemerintah' },
