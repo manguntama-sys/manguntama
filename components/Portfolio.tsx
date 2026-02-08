@@ -17,8 +17,8 @@ const Portfolio: React.FC = () => {
 
   // Featured visual projects
   const featuredProjects: ProjectCard[] = [
-    { id: 1, title: 'DED Pembangunan RSU Efarina Etaham Karawang', category: 'Swasta', type: 'Hospital Masterplan', year: '2023', image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=800&auto=format&fit=crop' },
-    { id: 2, title: 'Gedung Bedah Sentral Terpadu', category: 'Swasta', type: 'DED & Architecture', year: '2023', image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop' },
+    { id: 1, title: 'DED Pembangunan RSU Efarina Etaham Karawang', category: 'Swasta', type: 'DED & Architecture', year: '2023', image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=800&auto=format&fit=crop' },
+    { id: 2, title: 'DED Renovasi Gedung Rawat Jalan RSU Dustira', category: 'Pemerintah', type: 'DED & Architecture', year: '2024', image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop' },
     { id: 3, title: 'Kawasan Komersial Terintegrasi', category: 'Swasta', type: 'Commercial Design', year: '2022', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop' },
   ];
 
@@ -26,12 +26,13 @@ const Portfolio: React.FC = () => {
   const experienceList: DetailedProject[] = [
     { id: 1, name: 'DED Pembangunan RSU Efarina Etaham Karawang', owner: 'PT. Efarina Etaham', year: '2024', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 2, name: 'Masterplan RSU Efarina Etaham Karawang', owner: 'PT. Efarina Etaham', year: '2024', progress: '100% (Selesai)', category: 'Swasta' },
-    { id: 3, name: 'Manajemen Konstruksi Pembangunan Klinik Utama', owner: 'Yayasan Bakti Kesehatan', year: '2022', progress: '90% (Tahap Finishing)', category: 'Swasta' },
+    { id: 3, name: 'Feasibility Study RSU Efarina Etaham Karawang', owner: 'PT. Efarina Etaham', year: '2024', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 4, name: 'Feasibility Study Analisis Bisnis Pelayanan Radioterapi RSBP Kota Batam', owner: 'RSBP Batam', year: '2025', progress: '100% (Selesai)', category: 'Pemerintah' },
     { id: 5, name: 'DED Gedung Parkir RSU Asri Purwakarta', owner: 'PT. Asri Medcal Center', year: '2025', progress: '100% (Selesai)', category: 'Swasta' },
     { id: 6, name: 'DED Gedung 4 Lantai RSU ASRI', owner: 'Pemerintah Kabupaten Bandung Barat', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
-    { id: 7, name: 'Perencanaan Gedung Rawat Inap 5 Lantai', owner: 'RS Swasta Medika', year: '2024', progress: '40% (Tahap DED)', category: 'Swasta' },
-    { id: 8, name: 'Review Masterplan RS Jantung Nasional', owner: 'Kementerian Kesehatan RI', year: '2023', progress: '100% (Selesai)', category: 'Pemerintah' },
+    { id: 7, name: 'Perencanaan Rumah Sakit Permata Hati Tasikmalaya', owner: 'PT Madina Medika Pratama', year: '2026', progress: '20% (Tahap DED)', category: 'Swasta' },
+    { id: 8, name: 'DED Renovasi Gedung Rawat Jalan RSU Dustira', owner: 'RS Dustira Cimahi', year: '2024', progress: '100% (Selesai)', category: 'Pemerintah' },
+    { id: 8, name: 'DED Renovasi Gedung Rawat Inap KRIS dan Kantor RSU Dustira', owner: 'RS Dustira Cimahi', year: '2025', progress: '100% (Selesai)', category: 'Pemerintah' },
   ];
 
   // Dynamically get unique years from both lists for the filter
