@@ -17,7 +17,7 @@ const Portfolio: React.FC = () => {
 
   // Featured visual projects
   const featuredProjects: ProjectCard[] = [
-    { id: 1, title: 'Masterplan RSUD Modern', category: 'Pemerintah', type: 'Hospital Masterplan', year: '2023', image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=800&auto=format&fit=crop' },
+    { id: 1, title: 'DED Pembangunan RSU Efarina Etaham Karawang', category: 'Swasta', type: 'Hospital Masterplan', year: '2023', image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=800&auto=format&fit=crop' },
     { id: 2, title: 'Gedung Bedah Sentral Terpadu', category: 'Swasta', type: 'DED & Architecture', year: '2023', image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop' },
     { id: 3, title: 'Kawasan Komersial Terintegrasi', category: 'Swasta', type: 'Commercial Design', year: '2022', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop' },
   ];
